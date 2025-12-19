@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amazon Clone – College Mini Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+/* BASIC RESET */
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#eaeded;
+}
+
+/* HEADER */
+header{
+  background:#131921;
+  color:#fff;
+  padding:16px 24px;
+  font-size:22px;
+  font-weight:bold;
+}
+
+/* HERO / COVER */
+.hero img{
+  width:100%;
+  height:340px;
+  object-fit:cover;
+}
+
+/* MAIN CONTAINER */
+.container{
+  padding:20px;
+  margin-top:-80px;
+}
+
+/* SECTION */
+.section{
+  background:#fff;
+  padding:20px;
+  border-radius:8px;
+  margin-bottom:25px;
+}
+.section h2{
+  margin-bottom:15px;
+}
+
+/* PRODUCT GRID */
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+  gap:20px;
+}
+
+/* PRODUCT CARD */
+.card{
+  text-align:center;
+}
+.card img{
+  width:100%;
+  height:160px;
+  object-fit:contain;
+}
+.price{
+  color:#b12704;
+  font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PROJECT TITLE HEADER -->
+<header>Amazon Clone – Mini Project</header>
+
+<!-- COVER IMAGE -->
+<div class="hero">
+ <img src="cover.jpg" alt="Cover Image">
+</div>
+
+<div class="container">
+
+<!-- GROCERY -->
+<div class="section">
+  <h2>Grocery Essentials</h2>
+  <div class="products">
+    <div class="card">
+      <img src="rice.jpg" alt="rice image">
+
+      <p>Basmati Rice (5kg)</p>
+      <p class="price">₹699</p>
+    </div>
+    <div class="card">
+      <img src="oil.jpg" alt="oil image">
+      <p>Sunflower Oil (1L)</p>
+      <p class="price">₹159</p>
+    </div>
+  </div>
+</div>
+
+<!-- POOJA ITEMS -->
+<div class="section">
+  <h2>Pooja Items</h2>
+  <div class="products">
+    <div class="card">
+      
+<img src="image/brass_diya.jpg" alt="Brass Diya">
+
+      <p>Brass Diya</p>
+      <p class="price">₹299</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1613478223719-2ab802602423">
+      <p>Agarbatti Pack</p>
+      <p class="price">₹90</p>
+    </div>
+  </div>
+</div>
+
+<!-- ELECTRONICS -->
+<div class="section">
+  <h2>Electronics</h2>
+  <div class="products">
+    <div class="card">
+      <img src="headphones.jpg" alt=" Headphones">
+
+      <p>headphones</p>
+      <p class="price">₹1,299</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f">
+      <p>Smart Camera</p>
+      <p class="price">₹2,499</p>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTWEAR -->
+<div class="section">
+  <h2>Footwear</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
+      <p>Men’s Casual Shoes</p>
+      <p class="price">₹1,499</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f">
+      <p>Women’s Sandals</p>
+      <p class="price">₹999</p>
+    </div>
+  </div>
+</div>
+
+<!-- FASHION -->
+<div class="section">
+  <h2>Fashion</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975922215-2c38c7e4b8b4">
+      <p>Men’s Cotton Shirt</p>
+      <p class="price">₹899</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e">
+      <p>Women’s Kurti</p>
+      <p class="price">₹1,199</p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
